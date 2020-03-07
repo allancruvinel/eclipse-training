@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		List<String> list = new ArrayList<>();
+		
+		list.add("CU");
+		list.add("Rosimaria");
+		list.add("Stebam");
+		list.add(2,"Xonatas");
+		list.remove("CU");
+		
+		for(String a:list) {
+			System.out.println(a);
+		}
+		
+		
+
+	}
+
+}

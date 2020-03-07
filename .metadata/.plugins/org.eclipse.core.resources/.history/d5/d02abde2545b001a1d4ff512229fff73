@@ -1,0 +1,42 @@
+package application;
+
+import java.util.Scanner;
+
+import resourses.Room;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Room[] room = new Room[10]; 
+		Scanner sc = new Scanner(System.in);
+		System.out.println("How many rooms will be rented?");
+		
+		int n = sc.nextInt();
+		sc.nextLine();
+		for(int i = 0;i<n;i++) {
+			
+			System.out.println("Please enter with the renter name");
+			String name = sc.nextLine();
+			System.out.println("Please enter with the renter email");
+			String email = sc.nextLine();
+			System.out.println("Please enter with the Room number (between 1 and 10)");
+			int chosenroom = sc.nextInt()-1;
+			sc.nextLine();
+			
+			room[chosenroom] = new Room(name,email);
+		}
+		
+		System.out.println("Busy Rooms");
+		for(int i=0;i<room.length;i++) {
+			if(room[i]!=null) {
+				System.out.println(i+1": "+room[i].getName()+", "+room[i].getEmail());
+			}
+		}
+		
+		sc.close();
+
+	}
+
+}
