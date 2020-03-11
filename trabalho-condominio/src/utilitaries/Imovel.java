@@ -2,12 +2,12 @@ package utilitaries;
 
 public class Imovel {
 	private Pessoa pessoa;
-	private int numero;
+	private String numero;
 	private String rua;
 	private String bloco;
 	
 	
-	public Imovel(Pessoa pessoa,int numero, String rua, String bloco) {
+	public Imovel(Pessoa pessoa,String numero, String rua, String bloco) {
 		this.numero = numero;
 		this.rua = rua;
 		this.bloco = bloco;
@@ -20,7 +20,7 @@ public class Imovel {
 	}
 
 
-	public int getNumero() {
+	public String getNumero() {
 		return numero;
 	}
 
@@ -32,6 +32,10 @@ public class Imovel {
 
 	public String getBloco() {
 		return bloco;
+	}
+	
+	public String toString() {
+		return getPessoa().toString()+" Numero "+getNumero()+" Rua "+getRua()+" Bloco "+getBloco();
 	}
 	
 	

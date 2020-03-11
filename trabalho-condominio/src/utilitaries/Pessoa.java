@@ -34,6 +34,9 @@ public class Pessoa {
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
+	public String toString() {
+		return "Nome = "+getNome()+" CPF "+getCpf()+" Telefone "+getTelefone();
+	}
 	
 	
 	
