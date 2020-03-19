@@ -21,4 +21,5 @@
     <fullyQualifiedTypeName name="utils.Order"/>
     <fullyQualifiedTypeName name="utils.OrderItem"/>
     <fullyQualifiedTypeName name="utils.Product"/>
+    <fullyQualifiedTypeName name="projrh.CadastroEmpregado"/>
 </qualifiedTypeNameHistroy>
