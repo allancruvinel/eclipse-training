@@ -33,7 +33,7 @@ public class Program {
 		for (int i=0;i<x;i++) {
 			System.out.printf("Enter  %d item data: \n",i+1);
 			System.out.printf("Product Name: ");String productName = sc.nextLine();
-			System.out.printf("Product Price: ");int productPrice = sc.nextInt();sc.nextLine();
+			System.out.printf("Product Price: ");double productPrice = sc.nextDouble();sc.nextLine();
 			System.out.printf("quantity: ");int productQuantity = sc.nextInt();sc.nextLine();
 			order.addItem(orderitem = new OrderItem(productQuantity,product = new Product(productName,productPrice)));
 		}
