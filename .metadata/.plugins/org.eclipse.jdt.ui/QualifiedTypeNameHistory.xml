@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="utils.OrderItem"/>
     <fullyQualifiedTypeName name="utils.Product"/>
     <fullyQualifiedTypeName name="projrh.CadastroEmpregado"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="entities.Account"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="exceptions.DomainException"/>
@@ -38,4 +37,5 @@
     <fullyQualifiedTypeName name="module.entities.Installment"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-        <listEntry value="/ExercPOO11_Interfaces/src/module/application/Main.java"/>
+        <listEntry value="/DesignPatterns/src/Strategy/Main.java"/>
     </listAttribute>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
         <listEntry value="1"/>
     </listAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
-    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="module.application.Main"/>
-    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="ExercPOO11_Interfaces"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="Strategy.Main"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="DesignPatterns"/>
 </launchConfiguration>
